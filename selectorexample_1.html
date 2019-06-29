@@ -1,0 +1,32 @@
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title> Insert title here </title>
+<script src="lib/jquery-3.2.1.js"></script>
+  
+<script type="text/javascript">
+
+$(document).ready(function(){
+	
+	$("button").click(function(){
+	
+	$("[class*='eade']").css("color","red");
+	$("[class^='para']").css("background-color","blue");
+	})
+});
+
+</script>
+
+</head>
+
+<body>
+  <center>
+<h2 id="header2" class="header"> Header Tag </h2>
+<h3 id="header3" class="header"> Header Tag 1 </h3>
+<p id="paragraph1" class="paragraph">Paragraph 1 </p>
+<p id="paragraph2" class="paragraph">Paragraph 2 </p> 
+<button> Click me</button>
+    </center>
+</body>
+
+</html>

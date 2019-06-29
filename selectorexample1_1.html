@@ -1,0 +1,54 @@
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title> Insert title here </title>
+<script type="text/javascript" src="lib/jquery-3.2.1.js"></script>
+  
+<script type="text/javascript">
+
+$(document).ready(function(){
+	
+	$("button").click(function(){
+	$( ".container" ).contents()
+	
+    .filter(function() {
+      return this.nodeType === 3;
+    })
+     .wrap( "<b>" )
+      .end()
+	  
+	  
+    .filter( "br" )
+    .remove();
+	
+	})
+});
+
+</script>
+
+</head>
+
+<body>
+  <center>
+<h2 id="header2" class="header"> Header Tag </h2>
+<h3 class="header"> Header Tag 1 </h3>
+<p id="paragraph1" class="paragraph">Paragraph 1 </p>
+<p>Paragraph 2 </p> 
+<a href="www.google.com"> Google </a> <br>
+<a href="www.wikipedia.org"> wikipedia </a><br><br>
+<div class="container">
+  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
+  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+  <br><br>
+  Ut enim ad minim veniam, quis nostrud exercitation ullamco
+  laboris nisi ut aliquip ex ea commodo consequat.
+  <br><br>
+  Duis aute irure dolor in reprehenderit in voluptate velit
+  esse cillum dolore eu fugiat nulla pariatur.
+</div>
+<br>
+<button> Click me</button>
+    </center>
+</body>
+
+</html>

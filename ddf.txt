@@ -1,0 +1,57 @@
+nehla.sarhne.com
+
+Bonsoir, 
+enti makech mi7teja menni klem 7loue, 3raftek tofla sportifa, 3a9la, mitwadh3a we rjoulia... e5er siftine 5allewek spéciale par rapport lil 3bed lo5ra, we hetheka 3lech el 3bed el kol t7ibbek wena minhom betbi3a, we kol me tzid tikber 9ad me tzid ti7la wel 3bed t7ibbek, we logique yokthrou elli mathroubine fik, we yzidou les followers fi denya we fil les réseaux sociaux .. ena nchouf el côté sportif 3allmek barcha 7ajet.. 7assilou, me kont taffi la3bed, wena 9olt ki yokthrou nesek, tos3eb 3lik tjeweb la3bed el kol, ama ahoua je wa9t el fdha, we be9i fama messaget "9dom" me jewebtech 3lihom, ena kellemtek houni, 
+
+
+5ater el mlem ken yji directe, youfa kol chey, twelli ye tjeweb bessif min 3lik we tnefe9 wella taffi jimla we wa9tha el maw9ef beye5 lik we l ghirek ..me t5ammemech yesser fia chkoun, sadda9ni lek bech ta3rafni ... ghir 7abbitek traje3 rou7ek, 
+fil kol ena dima fe5our belli ta3mel fih we ya3tik sa77a we mabrouk 3lik nje7, kol youm hak tzid twelli 3sal we a7la m nhar elli 9ablou , rod belek bark titdhrab fi rou7ek nehhoul xoxo 
+ken nhar, l9it message chkoun 93ad m3alle9 we talla3tni, elli houa impossible, ena nichhedlek , el be9i ki n7ib nousef nahla, ne7ki m3aha toul 
+
+les trois messages elli fetou betbi3a te3ine b3athhom
+
+
+amia.miley
+
+TM73V-4X2A4-6G7JM-QUPQZ-QWOV3-VDOJK
+
+
+Sélectionner par type d'élément :h1,h2,p,img, etc.
+Sélectionner par classe :.starred,.featured, etc.
+Sélectionner par ID:#about,#contact, etc.
+
+Les descendants
+
+$("ancêtre descendant") : sélectionne tous les éléments qui sont au sein d'un élément ancêtre 
+
+Parents et enfants
+
+$("parent > enfant") : sélectionne tous les enfants qui sont descendants immédiats d'un élément parent (aussi appelé sélecteur combinateur d'enfant)
+
+Les jumeaux
+
+$(élément ~ frères): sélectionne tous les frères du premier élément spécifié.
+$(élément  + frère)  : sélectionne l'élément frère qui suit immédiatement l'élément spécifié.
+
+:first : sélectionne la première occurrence d'un élément 
+:last : sélectionne la dernière occurrence d'un élément
+:eq(indice) : sélectionne l'élément à un indice donné (c'est là que les tableaux deviennent bien pratiques !) 
+:gt(indice) : sélectionne le ou les élément(s) situé(s) à un indice supérieur au nombre spécifié.
+:lt(indice) : même concept mais pour les éléments à un indice plus petit que le nombre spécifié.
+:not(sélecteur) : sélectionne les éléments qui ne sont pas... eh bien, le sélecteur !
+
+
+("éléments").méthode("paramètres")
+
+.on('click', function() { … }
+.on('scroll', function() { … }
+.on('hover', function() { … }
+.on('mouseover', function() { … }
+.on('mouseenter', function() { … }
+.on('mouse leave', function() { … }
+.on('keydown', function() { … }
+.on('keyup', function() { … }
+.on('keypress', function() { … }
+.on('focus', function() { … }
+.on('blur', function() { … }
+.on('resize', function() { … }
